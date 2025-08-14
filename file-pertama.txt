@@ -81,9 +81,58 @@ Advanced Package Tool (APT) : Pengelola paket yang paling banyak digunakan pada 
 13. T/T 	             aptitude why-not regex 	             T/T 	          menjelaskan alasan mengapa paket-paket yang cocok regex tidak dapat dipasang
 14. apt list --manual-installed 	    aptitude search '~i!~M' 	   apt-mark showmanual 	   menampilkan daftar paket yang dipasang secara manual 
 
+**konfigurasi sistem debian 13**
+Debian 13, yang dikenal dengan nama kode "Trixie", adalah rilis terbaru dari sistem operasi Debian yang dirilis pada 9 Agustus 2025. Sistem ini menawarkan stabilitas dan dukungan perangkat keras yang luas, menjadikannya pilihan populer untuk server dan desktop. Debian 13 memiliki siklus hidup lima tahun, dengan tiga tahun dukungan penuh dan dua tahun Dukungan Jangka Panjang (LTS). 
+Konfigurasi Sistem Debian 13
+Berikut adalah beberapa aspek konfigurasi sistem yang umum pada Debian:
+
+    1. Konfigurasi Jaringan:
+        Debian menggunakan NetworkManager untuk mengelola koneksi jaringan. 
+
+Anda dapat mengonfigurasi jaringan melalui antarmuka grafis atau baris perintah menggunakan nmcli. 
+Untuk pengaturan DNS, NetworkManager biasanya mengelola /etc/resolv.conf. 
+Pilih "Alamat Otomatis (DHCP) saja" untuk pengaturan jaringan otomatis, dan masukkan server DNS di kolom yang sesuai. 
+
+2. Manajemen Paket:
+
+    Debian menggunakan sistem manajemen paket APT (Advanced Package Tool). 
+
+Anda dapat menginstal, memperbarui, dan menghapus perangkat lunak menggunakan perintah seperti apt update, apt upgrade, dan apt install <nama_paket>. 
+
+3. Konfigurasi Sistem Dasar:
+
+    Debian memungkinkan konfigurasi berbagai aspek sistem, seperti bahasa, zona waktu, dan keyboard melalui alat dpkg-reconfigure. 
+
+Anda juga dapat mengonfigurasi sistem secara manual dengan mengedit file konfigurasi yang sesuai di direktori /etc. 
+
+4. Keamanan:
+
+    Debian dikenal dengan pembaruan keamanan berkala. 
+
+Pastikan untuk selalu memperbarui sistem Anda untuk mendapatkan patch keamanan terbaru. 
+Pertimbangkan untuk mengaktifkan firewall seperti ufw untuk melindungi sistem Anda dari akses yang tidak sah. 
+
+5. Dukungan Perangkat Keras:
+
+    Debian mendukung berbagai arsitektur perangkat keras, termasuk 64-bit dan 32-bit. 
+
+Debian juga mendukung berbagai perangkat keras secara luas. 
+
+6. Instalasi Debian:
+
+    Anda dapat menginstal Debian dari gambar ISO yang dapat diunduh dari situs web resmi Debian. 
+
+Debian dapat diinstal pada berbagai jenis perangkat keras, termasuk virtual machine. 
+
+Informasi Tambahan:
+
+    Debian 13 "Trixie" memiliki siklus hidup lima tahun, dengan dukungan penuh selama tiga tahun dan Dukungan Jangka Panjang (LTS) selama dua tahun. 
+
+Debian dikenal dengan stabilitasnya, menjadikannya pilihan yang baik untuk server dan desktop yang membutuhkan keandalan. 
+Debian juga menawarkan berbagai macam perangkat lunak yang dapat diinstal melalui sistem manajemen paket APT.
 
 **latihan harian**
-saya akan belajar dan mencoba perintah dan segala hal yang ada didebian 13 ini.
+saya akan belajar dan mencoba perintah dan segala hal yang ada didebian 13 ini, dengan terminal dan git.
 
 **Git workflow**
 pada repositori ini juga digunakan untuk latihan **git*, mulai dari *commit* dasar hingga *push* ke github.
