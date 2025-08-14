@@ -5,6 +5,42 @@
 **tujuan utama** 
 memahami dasar dasar linux, manajemen paket, dan konfigurasi sistem.
 
+**Dasar dasar linux**
+Dasar-dasar Linux mencakup pemahaman tentang perintah-perintah dasar yang digunakan untuk mengelola sistem operasi Linux. Beberapa perintah dasar yang penting antara lain ls (melihat isi direktori), cd (berpindah direktori), pwd (menampilkan direktori saat ini), mkdir (membuat direktori), rmdir (menghapus direktori kosong), rm (menghapus file atau direktori), cp (menyalin file atau direktori), mv (memindahkan atau mengganti nama file/direktori), dan touch (membuat file kosong). 
+Berikut adalah beberapa perintah dasar Linux yang umum digunakan: 
+
+    ls:
+    Perintah ini digunakan untuk menampilkan daftar file dan direktori di direktori saat ini. Contohnya, ls akan menampilkan semua file dan folder yang ada di direktori tempat Anda berada.
+    cd:
+    Perintah ini digunakan untuk berpindah dari satu direktori ke direktori lainnya. Misalnya, cd Documents akan membawa Anda ke direktori "Documents".
+    pwd:
+    Perintah ini menampilkan direktori kerja saat ini. Ini membantu Anda mengetahui lokasi Anda di struktur direktori sistem.
+    mkdir:
+    Perintah ini digunakan untuk membuat direktori baru. Misalnya, mkdir contoh_direktori akan membuat direktori baru bernama "contoh_direktori".
+    rmdir:
+    Perintah ini digunakan untuk menghapus direktori kosong. Perintah ini hanya bisa menghapus direktori yang kosong, tidak berisi file atau subdirektori.
+    rm:
+    Perintah ini digunakan untuk menghapus file atau direktori. Berhati-hatilah saat menggunakan perintah ini, karena file atau direktori yang dihapus tidak dapat dikembalikan.
+    cp:
+    Perintah ini digunakan untuk menyalin file atau direktori. Contohnya, cp file.txt /home/user/dokumen/ akan menyalin file "file.txt" ke direktori "/home/user/dokumen/".
+    mv:
+    Perintah ini digunakan untuk memindahkan atau mengganti nama file atau direktori. Misalnya, mv file.txt file_baru.txt akan mengganti nama "file.txt" menjadi "file_baru.txt".
+    touch:
+    Perintah ini digunakan untuk membuat file kosong baru. Jika file sudah ada, perintah ini hanya akan memperbarui stempel waktu file tersebut.
+    cat:
+    Perintah ini digunakan untuk menampilkan isi file di terminal. Contohnya, cat nama_file.txt akan menampilkan isi file "nama_file.txt".
+    grep:
+    Perintah ini digunakan untuk mencari teks tertentu dalam file. Misalnya, grep "keyword" nama_file.txt akan mencari baris dalam "nama_file.txt" yang mengandung kata "keyword".
+    man:
+    Perintah ini digunakan untuk menampilkan manual (help) dari perintah lain. Contohnya, man ls akan menampilkan manual untuk perintah ls.
+    sudo:
+    Perintah ini digunakan untuk menjalankan perintah dengan hak akses superuser (root). Perintah ini membutuhkan kata sandi pengguna.
+    nano
+    atau vi: Editor teks yang umum digunakan di Linux. Nano lebih mudah digunakan untuk pemula. 
+
+Selain perintah-perintah dasar di atas, ada banyak perintah lain yang berguna dalam Linux untuk berbagai keperluan, seperti manajemen file, jaringan, sistem, dan lain-lain. Memahami perintah-perintah dasar ini adalah langkah awal yang penting untuk menguasai Linux
+
+
 **latihan harian**
 saya akan belajar dan mencoba perintah dan segala hal yang ada didebian 13 ini.
 
