@@ -38,7 +38,48 @@ Berikut adalah beberapa perintah dasar Linux yang umum digunakan:
     nano
     atau vi: Editor teks yang umum digunakan di Linux. Nano lebih mudah digunakan untuk pemula. 
 
-Selain perintah-perintah dasar di atas, ada banyak perintah lain yang berguna dalam Linux untuk berbagai keperluan, seperti manajemen file, jaringan, sistem, dan lain-lain. Memahami perintah-perintah dasar ini adalah langkah awal yang penting untuk menguasai Linux
+Selain perintah-perintah dasar di atas, ada banyak perintah lain yang berguna dalam Linux untuk berbagai keperluan, seperti manajemen file, jaringan, sistem, dan lain-lain. Memahami perintah-perintah dasar ini adalah langkah awal yang penting untuk menguasai Linux.
+
+**Manajemen paket linux**
+Proses instalasi, pembaruan, konfigurasi, dan penghapusan paket perangkat lunak dengan manajer paket di OS Linux disebut manajemen paket. Untuk menjaga sistem yang andal dan konsisten, tugas-tugas ini dapat diotomatisasi dan dependensi dapat dikelola. Manajer paket menyediakan akses ke repositori perangkat lunak terpusat yang menawarkan beragam pilihan program siap pakai. Instalasinya mudah. Versi perangkat lunak dapat diperiksa, dan paket dapat diperbarui secara otomatis. Instalasi dependensi yang diperlukan juga otomatis. Manajer paket dapat mengidentifikasi dan menyelesaikan konflik antar paket. Beberapa manajer paket dapat melakukan rollback ke versi paket sebelumnya atau membuat cadangan status paket. Beberapa manajer paket yang paling banyak digunakan di Linux adalah sebagai berikut:
+
+    APT (Advanced Package Tool) : Digunakan oleh distribusi berbasis Debian seperti Ubuntu dan Mint.
+
+    YUM (Yellowdog Updater, Modified) : Digunakan oleh distribusi berbasis Red Hat seperti RHEL dan CentOS.
+
+    DNF (Dandified YUM) : Manajer paket generasi berikutnya untuk distribusi berbasis Red Hat, menggantikan YUM.
+
+    Pacman : Digunakan oleh Arch Linux dan turunannya.
+
+    Zypper : Digunakan oleh distribusi berbasis SUSE seperti openSUSE.
+
+    Portage : Digunakan oleh Gentoo Linux dan turunannya
+
+karena kita pakai debian 13 jadi jika fokus saja pada paket manajemen debian:
+Advanced Package Tool (APT) : Pengelola paket yang paling banyak digunakan pada sistem berbasis Debian. APT menawarkan antarmuka yang mudah digunakan untuk menginstal, menghapus, memutakhirkan, dan mengelola paket perangkat lunak.
+
+    Digunakan oleh Debian, Ubuntu, dan distribusi terkait
+
+    Mengelola paket .deb
+
+    Menyediakan antarmuka baris perintah (apt, apt-get, apt-cache) dan antarmuka grafis opsional
+
+    Menyelesaikan dependensi secara otomatis
+   sintaks apt 	       aptitude syntax 	       sintaks apt-get/apt-cache 	             deskripsi
+1. apt update 	        aptitude update 	            apt-get update 	                   memperbarui metadata arsip paket
+2. apt install anu 	 aptitude install foo 	        apt-get install foo 	               memasang versi kandidat paket "foo" dengan dependensinya
+3. apt upgrade     	aptitude safe-upgrade 	         apt-get upgrade 	         memasang versi kandidat dari paket yang terpasang tanpa menghapus paket lain
+4. apt full-upgrade 	aptitude full-upgrade 	       apt-get dist-upgrade 	memasang versi kandidat paket yang terpasang sambil menghapus paket lain jika diperlukan
+5. apt remove anu 	  aptitude remove foo 	         apt-get remove foo 	                menghapus paket "foo" sambil membiarkan berkas konfigurasinya
+6. apt autoremove 	         T/T 	                  apt-get autoremove 	        menghapus paket yang terpasang secara otomatis yang tidak lagi diperlukan
+7. apt purge anu 	    aptitude purge foo 	          apt-get purge foo 	                membersihkan paket "foo" dengan berkas-berkas konfigurasinya
+8. apt clean 	         aptitude clean 	               apt-get clean 	    membersihkan sepenuhnya repositori lokal dari berkas-berkas paket yang diambil
+9. apt autoclean 	   aptitude autoclean 	           apt-get autoclean 	  membersihkan repositori lokal dari berkas-berkas paket yang diambil untuk paket-paket usang
+10. apt show anu 	    aptitude show foo 	          apt-cache show foo 	                 menampilkan informasi terperinci tentang paket "foo"
+11. apt search regex 	aptitude search regex 	    apt-cache search regex 	               mencari paket-paket yang cocok dengan regex
+12. T/T 	             aptitude why regex 	                 T/T 	                menjelaskan alasan mengapa paket-paket yang cocok regex harus dipasang
+13. T/T 	             aptitude why-not regex 	             T/T 	          menjelaskan alasan mengapa paket-paket yang cocok regex tidak dapat dipasang
+14. apt list --manual-installed 	    aptitude search '~i!~M' 	   apt-mark showmanual 	   menampilkan daftar paket yang dipasang secara manual 
 
 
 **latihan harian**
