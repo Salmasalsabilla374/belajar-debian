@@ -1,0 +1,36 @@
+# Belajar Debian
+ disini saya ingin belajar, dan mengenal menggunakan sistem operasi debian 13.
+
+## Tahap belajar
+**tujuan utama** 
+memahami dasar dasar linux, manajemen paket, dan konfigurasi sistem.
+
+**latihan harian**
+saya akan belajar dan mencoba perintah dan segala hal yang ada didebian 13 ini.
+
+**Git workflow**
+pada repositori ini juga digunakan untuk latihan **git*, mulai dari *commit* dasar hingga *push* ke github.
+
+## catatan belajar
+
+### 1. Instalasi debian13
+versi: debian13 "trixie"
+catatan: jangan melakukan instalasi sendiri, karena bisa menghilangkan sistem windosh, sebelum melakukan instalasi back up data terlebih dahulu taku hal hal yang tidak di ingikan terjadi
+
+### 2. Tools dasar
+**apt** : digunakan untuk menginstalasi paket contohnya seperti 'git'
+**nano** : editor taks dasar yang sangat membantu untuk mengedit file konfigurasi, seperti ini
+**htop** : membantu memantau penggunaan CPU dan memori 
+
+### dan tools lainya nanti aku tambahin
+
+### 3. penggunaan git 
+seperti masuk ke git config, git init, git commit, git push ke repo
+
+## kontributor 
+salmasalsabilla374 sebagai pemilik
+
+---
+
+selamat belajar, jangan pantang menyerah
+**bismillah**
