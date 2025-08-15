@@ -1,0 +1,24 @@
+pada teks kedua ini saya akan mempelajari hal hal yang mencakup bahasa pemograman mulai dari html, css, dan lain lainya
+**HTML**
+html adalah singkatan dari Hyper Text Markup Language
+yang dimana untuk membuat halaman web, mulai darai struktur halaman, mulai dari judul, paragraf, tautan dan lain lainya.
+berikut ini adalah tampilan html:
+
+<!DOCTYPE html> (mendefinisikan bahwa dokumen ini adalah dokumen html)
+<html> (merupakan elemen akar dari halaman html)
+<head> (berisi informasi tentang halaman html)
+<title>Page Title</title> (menentukan judul untuk halaman html)
+</head>
+<body> (mendefinisikan badan dokumen, mulai dari judul, paragraf, gambar, tabel dan lain lain
+
+<h1>My First Heading</h1> (mendefinisikan judul besar)
+<p>My first paragraph.</p> (isi dari paragraf)
+
+</body>
+</html>
+
+cara penerapan 
+<h1> portofolio saya </h1>
+<p> pada portofolio saya akan menjelaskan singkat terkait saya </p>
+
+segini dulu nanti tambahin lagi....
